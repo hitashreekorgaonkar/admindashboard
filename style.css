@@ -50,8 +50,8 @@
     float: left;
     text-decoration: none;
     width: 220px;
-    border-top: 1px solid #373737;
-    border-bottom: 1px solid #1A1A1A;
+    /* border-top: 1px solid #373737; */
+    border-bottom: 1px solid #373737;
     -webkit-transition: background .5s;
     -moz-transition: background .5s;
     -o-transition: background .5s;
@@ -98,11 +98,20 @@
   background: none;
 }
 
-#main_icon
+/* #main_icon
 {
-    float:right;
-   padding-right: 30px;
-   padding-top:20px;
+  float:right;
+  padding-left: 80px;
+  padding-top:20px;
+} */
+.translate-middle {
+  transform: translate(-50%,-50%)!important;
+}
+.start-100 {
+  left: 100%!important;
+}
+.top-3 {
+  top: 3.5%!important;
 }
 #sub_icon
 {
